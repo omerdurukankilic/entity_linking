@@ -1,5 +1,5 @@
 # Entity Linking
-Linking recipe ingredients to their USDA portions database counterparts using cosine similarity. Normalizing items' units to grams.
+Linking recipe ingredients to their USDA portions dataset counterparts using cosine similarity. Normalizing items' units to grams.
 
 ## Methodology
 
