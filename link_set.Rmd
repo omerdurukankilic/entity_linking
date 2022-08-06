@@ -1,0 +1,22 @@
+---
+title: "gr_norm"
+output: html_document
+date: "`r Sys.Date()`"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(dplyr)
+```
+
+```{r}
+link <- read.csv("link.csv", header = FALSE) %>% rename(Ingr = V1, Match = V2, Score = V3)
+link
+```
+
+
+```{r}
+write.csv(link,"tlink.csv", row.names = FALSE)
+```
+
