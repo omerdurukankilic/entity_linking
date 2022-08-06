@@ -3,9 +3,9 @@ Linking recipe ingredients to their USDA portions database counterparts using co
 
 ## Methodology
 
-### data
+## data folder
 There are 5 csv files in the data folder. grams.csv and ingr.csv are the initial input files for this project.
 
-#### ingr.csv
+### ingr.csv
 
 
